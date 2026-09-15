@@ -2,14 +2,13 @@ import { useState, useEffect } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import { Menu, X } from 'lucide-react'
 import { Link, useLocation, useNavigate } from 'react-router-dom'
-import { merchLink } from '../siteConfig'
 
 const navItems = [
   { name: 'About', href: '/#about' },
   { name: 'Music', href: '/#music' },
   { name: 'Photos', href: '/#photos' },
   { name: 'Stonebridge Records', href: '/stonebridge' },
-  { name: 'Merch', href: merchLink },
+  { name: 'Merch', href: '/merch' },
   { name: 'Contact', href: '/#contact' },
 ]
 
@@ -140,7 +139,7 @@ const Navbar = () => {
             initial={{ opacity: 0, height: 0 }}
             animate={{ opacity: 1, height: 'auto' }}
             exit={{ opacity: 0, height: 0 }}
-            className="md:hidden glass mt-4"
+            className="md:hidden bg-dark-800 border-t border-white/10 mt-4"
           >
             <div className="flex flex-col items-center py-6 gap-6">
               {navItems.map((item) =>

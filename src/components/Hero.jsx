@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion'
-import { latestRelease, streamingLinks } from '../siteConfig'
+import { latestRelease, streamingLinks, spotifyEmbedUrl } from '../siteConfig'
 import BrandIcon from './BrandIcon'
 
 const Hero = () => (
@@ -59,15 +59,17 @@ const Hero = () => (
           transition={{ delay: 0.6, duration: 0.7 }}
           className="flex flex-col gap-3 max-w-sm mx-auto xl:mx-0"
         >
-          <a
-            href={streamingLinks[0].href}
-            target="_blank"
-            rel="noreferrer"
-            className="flex items-center justify-center gap-2 px-7 py-3.5 rounded-full bg-gradient-to-r from-accent-primary to-accent-tertiary text-dark-900 font-semibold hover:opacity-90 transition-opacity text-center"
-          >
-            <BrandIcon name={streamingLinks[0].icon} className="w-5 h-5" />
-            Play on Spotify
-          </a>
+          <iframe
+            title="Under Control on Spotify"
+            style={{ borderRadius: '12px' }}
+            src={spotifyEmbedUrl}
+            width="100%"
+            height="152"
+            frameBorder="0"
+            allowFullScreen
+            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+            loading="lazy"
+          />
           <div className="flex flex-wrap gap-3 justify-center xl:justify-start">
             {streamingLinks.slice(1).map((link) => (
               <a

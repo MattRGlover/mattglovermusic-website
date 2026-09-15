@@ -44,10 +44,6 @@ const Photos = () => (
           </motion.div>
         ))}
       </div>
-      <p className="text-gray-500 text-sm text-center mt-8">
-        More photos coming soon &mdash; drop new images into{' '}
-        <code className="text-gray-400">public/images</code> and add them here.
-      </p>
     </div>
   </section>
 )

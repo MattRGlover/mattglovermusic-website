@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion'
 import { Link } from 'react-router-dom'
 import { ArrowLeft } from 'lucide-react'
-import { contactEmail } from '../siteConfig'
+import { stonebridgeEmail } from '../siteConfig'
 
 const StonebridgePage = () => (
   <div className="min-h-screen px-6 pt-32 pb-24">
@@ -60,10 +60,10 @@ const StonebridgePage = () => (
           Looking to submit music or talk business? Reach out below.
         </p>
         <a
-          href={`mailto:${contactEmail}`}
+          href={`mailto:${stonebridgeEmail}`}
           className="text-lg text-accent-secondary hover:text-accent-primary transition-colors font-medium"
         >
-          {contactEmail}
+          {stonebridgeEmail}
         </a>
       </motion.div>
     </div>

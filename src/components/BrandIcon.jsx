@@ -1,8 +1,9 @@
-import { siSpotify, siApplemusic, siYoutubemusic, siSoundcloud, siInstagram, siFacebook } from 'simple-icons'
+import { siSpotify, siApplemusic, siYoutube, siYoutubemusic, siSoundcloud, siInstagram, siFacebook } from 'simple-icons'
 
 const icons = {
   spotify: siSpotify,
   applemusic: siApplemusic,
+  youtube: siYoutube,
   youtubemusic: siYoutubemusic,
   soundcloud: siSoundcloud,
   instagram: siInstagram,

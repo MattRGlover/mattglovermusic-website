@@ -11,6 +11,7 @@ import Contact from './components/Contact'
 import Footer from './components/Footer'
 import Loader from './components/Loader'
 import StonebridgePage from './pages/StonebridgePage'
+import MerchPage from './pages/MerchPage'
 import NotFoundPage from './pages/NotFoundPage'
 
 function App() {
@@ -50,6 +51,7 @@ function App() {
                 }
               />
               <Route path="/stonebridge" element={<StonebridgePage />} />
+              <Route path="/merch" element={<MerchPage />} />
               <Route path="*" element={<NotFoundPage />} />
             </Routes>
             <Footer />
