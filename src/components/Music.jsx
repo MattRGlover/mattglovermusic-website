@@ -30,13 +30,8 @@ const Music = () => (
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, amount: 0.2 }}
           transition={{ duration: 0.6 }}
-          className="rounded-2xl glass p-6 sm:p-8 mb-10 grid sm:grid-cols-[200px_1fr] gap-6 items-center"
+          className="rounded-2xl glass p-6 sm:p-8 mb-10"
         >
-          <img
-            src={r.cover}
-            alt={`${r.title} cover art`}
-            className="w-full max-w-[200px] mx-auto rounded-xl"
-          />
           <div className="min-w-0">
             <h3 className="font-display text-3xl text-white mb-1">{r.title}</h3>
             <p className="text-gray-400 text-sm tracking-[0.15em] uppercase mb-4">

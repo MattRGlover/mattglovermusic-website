@@ -29,7 +29,6 @@ export const latestRelease = {
 export const previousReleases = [
   {
     title: 'Under Control',
-    cover: '/images/under-control-cover.jpg',
     releaseDate: 'August 28, 2026',
     spotifyEmbedUrl: 'https://open.spotify.com/embed/track/2mRr5gnW025eNmN3y04som?utm_source=generator&theme=0',
     links: [
