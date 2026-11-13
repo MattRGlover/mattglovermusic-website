@@ -35,7 +35,8 @@ const About = () => (
           He tracked eight songs at Watershed Recording Studio and
           Forty-One Fifteen with Nashville-native producer Dusty Hough,
           alongside a lineup of local, mainstay musicians. His debut single,
-          &ldquo;Under Control,&rdquo; released August 28, 2026.
+          &ldquo;Under Control,&rdquo; released August 28, 2026, followed by
+          &ldquo;Decorum&rdquo; on November 12, 2026.
         </p>
       </motion.div>
     </div>

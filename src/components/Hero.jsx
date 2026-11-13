@@ -60,7 +60,7 @@ const Hero = () => (
           className="flex flex-col gap-3 max-w-sm mx-auto xl:mx-0"
         >
           <iframe
-            title="Under Control on Spotify"
+            title={`${latestRelease.title} on Spotify`}
             style={{ borderRadius: '12px' }}
             src={spotifyEmbedUrl}
             width="100%"

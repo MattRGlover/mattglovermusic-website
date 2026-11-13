@@ -2,12 +2,12 @@
 // Swap the remaining placeholder URLs/emails below for the real ones.
 
 export const streamingLinks = [
-  { name: 'Spotify', icon: 'spotify', href: 'https://open.spotify.com/track/2mRr5gnW025eNmN3y04som?si=b56917a2c5fa4b20z' },
-  { name: 'Apple Music', icon: 'applemusic', href: 'https://music.apple.com/us/song/under-control/6804153763' },
-  { name: 'YouTube', icon: 'youtube', href: 'https://www.youtube.com/watch?v=JzK8VS2OD0I' },
+  { name: 'Spotify', icon: 'spotify', href: 'https://open.spotify.com/track/4o3GtCOrzOFfCR1CYLQwnc?si=9036e41721fe4c62' },
+  { name: 'Apple Music', icon: 'applemusic', href: 'https://music.apple.com/us/song/decorum/6821916187' },
+  { name: 'YouTube', icon: 'youtube', href: 'https://www.youtube.com/watch?v=ZyXiYtPz9v4' },
 ]
 
-export const spotifyEmbedUrl = 'https://open.spotify.com/embed/track/2mRr5gnW025eNmN3y04som?utm_source=generator&theme=0&si=dc76247a217a482a'
+export const spotifyEmbedUrl = 'https://open.spotify.com/embed/track/4o3GtCOrzOFfCR1CYLQwnc?utm_source=generator&theme=0'
 
 // Matt Glover's Apple Music artist page (not tied to one release):
 // https://music.apple.com/us/artist/matt-glover/1783010259
@@ -21,9 +21,9 @@ export const contactEmail = 'booking@mattglovermusic.com'
 export const stonebridgeEmail = 'sbr@mattglovermusic.com'
 
 export const latestRelease = {
-  title: 'Under Control',
-  cover: '/images/under-control-cover.jpg',
-  releaseDate: 'August 28, 2026',
+  title: 'Decorum',
+  cover: '/images/decorum-cover.jpg',
+  releaseDate: 'November 12, 2026',
 }
 
 export const credits = {
