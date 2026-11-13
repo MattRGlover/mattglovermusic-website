@@ -26,6 +26,20 @@ export const latestRelease = {
   releaseDate: 'November 12, 2026',
 }
 
+export const previousReleases = [
+  {
+    title: 'Under Control',
+    cover: '/images/under-control-cover.jpg',
+    releaseDate: 'August 28, 2026',
+    spotifyEmbedUrl: 'https://open.spotify.com/embed/track/2mRr5gnW025eNmN3y04som?utm_source=generator&theme=0',
+    links: [
+      { name: 'Spotify', icon: 'spotify', href: 'https://open.spotify.com/track/2mRr5gnW025eNmN3y04som' },
+      { name: 'Apple Music', icon: 'applemusic', href: 'https://music.apple.com/us/song/under-control/6804153763' },
+      { name: 'YouTube', icon: 'youtube', href: 'https://www.youtube.com/watch?v=JzK8VS2OD0I' },
+    ],
+  },
+]
+
 export const credits = {
   songwriters: [{ role: 'Music & Lyrics', name: 'Matt Glover' }],
   performers: [
